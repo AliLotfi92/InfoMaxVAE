@@ -14,7 +14,7 @@ pip install -r requirements.txt```
 
 ### How to run
 ```bash
-python gae/train.py
+python MNIST/Save_Info_VAE_CNN.py
 ```
 Learning Representations by Maximizing Mutual Information in Variational Autoencoders
 https://arxiv.org/abs/1912.13361
