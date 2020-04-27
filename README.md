@@ -3,8 +3,7 @@ Learning representaion by maximizaing mutual information in variational autoenco
 
 This is a PyTorch implementation of Learning Representations by Maximizing Mutual Information in Variational Autoencoder.
 
-The paper was accepted to be published in ISIT2020;
-https://2020.ieee-isit.org/Papers.asp
+
 
 
 ### Requirements
