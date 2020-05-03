@@ -1,10 +1,6 @@
 # InfoMax Variational Autoencoder
 Learning representaion by maximizaing mutual information in variational autoencoders in PyTorch
 
-This is a PyTorch implementation of Learning Representations by Maximizing Mutual Information in Variational Autoencoder.
-
-
-
 
 ### Requirements
 - Python 3
