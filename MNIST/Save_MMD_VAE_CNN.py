@@ -1,6 +1,4 @@
 
-# In The Name of Allah
-
 
 import torch
 from torch.autograd import Variable
