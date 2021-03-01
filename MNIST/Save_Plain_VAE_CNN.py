@@ -1,5 +1,4 @@
 
-# In The Name of Allah
 
 
 import torch
