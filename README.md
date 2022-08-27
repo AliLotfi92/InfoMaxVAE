@@ -1,5 +1,5 @@
 # InfoMax Variational Autoencoder
-Learning representaion by maximizaing mutual information in variational autoencoders in PyTorch
+[Learning Representaion by Maximizaing Mutual Information in Variational Autoencoders](https://ieeexplore.ieee.org/abstract/document/9174424/) in PyTorch
 
 
 ### Requirements
@@ -16,3 +16,5 @@ python MNIST/Save_InfoMaxVAE_CNN.py
 ```
 Learning Representations by Maximizing Mutual Information in Variational Autoencoders
 https://arxiv.org/abs/1912.13361
+
+
