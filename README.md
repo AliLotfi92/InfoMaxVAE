@@ -1,6 +1,7 @@
 # InfoMax Variational Autoencoder
 [Learning Representaion by Maximizaing Mutual Information in Variational Autoencoders](https://ieeexplore.ieee.org/abstract/document/9174424/) in PyTorch
 
+![alt text](https://github.com/AliLotfi92/InfoMAXVAE/blob/master/assets/png3.png)
 
 ### Requirements
 - Python 3
@@ -18,3 +19,5 @@ Learning Representations by Maximizing Mutual Information in Variational Autoenc
 https://arxiv.org/abs/1912.13361
 
 
+### Results for PixelCNN setup
+![alt text](https://github.com/AliLotfi92/InfoMAXVAE/blob/master/assets/pixelvae.png)
