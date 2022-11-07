@@ -38,11 +38,18 @@ class AverageMeter(object):
         
 
 def parameters(model):
+    """
+        args: model
+        outputs: all trainable parameters in model
+    """
     total_params = sum(p.numel()for p in model.parameters() if p.requires_grad)
     return total_params
 
 
 class ProgressMeter(object):
+    """
+    function to display progress
+    """
     def __init__(self, num_batches, meters, prefix=""):
         self.batch_fmtstr = self._get_batch_fmtstr(num_batches)
         self.meters = meters
@@ -79,6 +86,9 @@ def convert_to_display(samples):
 
 
 def permute_dims(z):
+    """
+    function to permute z based on indicies
+    """
     assert z.dim() == 2
     B, _ = z.size()
     perm = torch.randperm(B)
@@ -87,6 +97,9 @@ def permute_dims(z):
 
 
 def compute_kernel(x, y):
+    """
+     calculate the kernel of (x, y)
+    """
     x_size = x.size(0)
     y_size = y.size(0)
     dim = x.size(1)
@@ -99,6 +112,9 @@ def compute_kernel(x, y):
 
 
 def compute_mmd(x, y):
+    """
+        calucate the maximum mean discrepency
+    """
     x_kernel = compute_kernel(x, x)
     y_kernel = compute_kernel(y, y)
     xy_kernel = compute_kernel(x, y)
