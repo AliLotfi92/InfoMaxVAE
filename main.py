@@ -128,19 +128,6 @@ def main(args):
                     'optim_vae': optim_vae.state_dict(),
                     }, filename=f'{args.model_name}/checkpoint.pth')
 
-            
-        
-    
-
-
-
-        
-        
-        
-        
-    
-
-
 
 if __name__ == '__main__':
     args = parser.parse_args()
