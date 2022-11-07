@@ -13,7 +13,16 @@ pip install -r requirements.txt```
 
 ### How to run
 ```bash
-bash run.sh
+python main.py \
+--method infomax \
+--model mlp \
+--dim 128 \
+--num_iter 500 \
+--batch_size 64 \
+--gamma 20 \
+--alpha 1 \
+--dataset cifar10 \
+--trial 1
 ```
 Learning Representations by Maximizing Mutual Information in Variational Autoencoders
 https://arxiv.org/abs/1912.13361
