@@ -96,6 +96,8 @@ def main(args):
     
     for epoch in range(args.start_epoch, args.num_iters):
         
+        # select the model and save its associated parameters for each iteration (replacing)
+        
         if args.method == 'infomax':
             train.train_infomax(train_loader, vae, disc, optim_vae, optim_disc, epoch, args)
             if epoch % args.save_freq == 0:
